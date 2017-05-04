@@ -59,10 +59,11 @@
 		    /* RESPONSIVE STYLES */
 		    @media only screen and (max-width: 620px) {
 		      table[class="container"] { width: 100% !important;  }
-		      table[id="nav-logo"] { width: 100% !important; }
+		      img[id="top-logo"] { width: 100% !important; height: auto !important; }
 		      table[id="nav-links"] { width: 100% !important; height: 40px !important; }
 		      td[id="nav1"] { text-align: right !important; }
 		      td[id="nav3"] { text-align: left !important; }
+					p[class="mob-padding"] { height: 7px !important; font-size: 7px !important;}
 		      table[id="nav-social"] { width: 80% !important; height: 30px !important; max-width: 200px !important;  }
 		      table[class="column"] { width: 100% !important; }
 		      table[class="column"] div { max-width: 380px !important; margin: 0 auto !important; }
@@ -87,10 +88,12 @@
 		    }
 		    @media only screen and (max-width:480px){
 		      td[id="nav-links"] { width: 100% !important; margin: 0 auto; }
-					td[class="mob-hide"] { display: none !important}
+					td[class="mob-hide"], p[class="mob-hide"] { display: none !important}
+					p[class="mob-padding"] { height: 8px !important; font-size: 8px !important;}
 		    }
 		    @media only screen and (max-width: 380px) {
 		      img[class="column-img-sub"] { width: 100% !important; height: auto !important; max-width: 380px; margin: 0 auto;}
+					p[class="mob-padding"] { height: 6px !important; font-size: 6px !important;}
 		      div[id="headline"] { font-size: 24px !important; }
 		      table[id="color-bg"]  { padding-top: 0px !important; }
 		      table[class="column"] div { padding: 0 10px !important; }
@@ -114,7 +117,7 @@
 			<table class="container" width="620" cellpadding="0" cellspacing="0" border="0" style="max-width: 620px;">
 				<tr>
 					<td align="center" valign="middle" width="100%" style="text-align:center; vertical-align:middle; width:100%;">
-						<p style="height:30px; font-size:30px; margin:0;">
+						<p class="mob-hide" style="height:30px; font-size:30px; margin:0;">
 								&nbsp;
 							</p>
 						<table width="100%" id="nav-links" valign="middle" align="left" cellspacing="0" cellpadding="0" border="0" style="border:0; cellpadding:0; cellspacing:0; mso-cellspacing: 0px; mso-padding-alt: 0px; padding-top: 0px; padding-bottom:10px; font-family: Helvetica, Arial, sans-serif;; color: #fffff; font-weight: 400; font-size: 12px; line-height: 14px; text-transform: uppercase; width: 100%;">
@@ -122,26 +125,26 @@
 						<tr>
 							<td width="20%" align="center" valign="bottom" style="text-align: center; vertical-align: bottom;">
 								<a href="http://www.cavalierhotel.com/dining" class="nav" style="font-family:'Times New Roman', Times, serif; font-size:14px;; color:#E3E6EC; text-decoration: none;">Dining</a>
-                <p style="height:10px; font-size:10px; margin:0;">&nbsp;</p>
+                <p class="mob-padding" style="height:10px; font-size:10px; margin:0;">&nbsp;</p>
 							</td>
 							<td width="20%" align="center" valign="bottom" class="mob-hide" style="text-align: center; vertical-align: bottom;">
 								<a href="http://www.cavalierhotel.com/history.aspx" style="font-family:'Times New Roman', Times, serif; font-size:14px;; color:#E3E6EC; text-decoration: none;">History</a>
-                <p style="height:10px; font-size:10px; margin:0;">&nbsp;</p>
+                <p class="mob-padding" style="height:10px; font-size:10px; margin:0;">&nbsp;</p>
 							</td>
 							<!--BEGIN LOGO-->
 							<td width="20%" align="center" style="text-align: center;">
 								<a href="http://www.cavalierhotel.com/" style="text-decoration: none;">
-									<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/xljjt5.png" width="150" height="92" id="top-logo" alt="Hilton Virginia Beach Oceanfront" title="Hilton Virginia Beach Oceanfront" style="display: block; border: none; font-family:Arial, sans-serif; color: #ffffff; font-size: 18px; width: 150px; height: 92px; margin: 0 auto;"/>
+									<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/xljjt5.png" width="150" height="92" id="top-logo" alt="Hilton Virginia Beach Oceanfront" title="Hilton Virginia Beach Oceanfront" title="Hilton Virginia Beach Oceanfront" style="display: block; border: none; font-family:Arial, sans-serif; color: #ffffff; font-size: 18px; width: 150px; height: 92px; margin: 0 auto;"/>
 								</a>
 							</td>
 							<!--END LOGO-->
 							<td width="20%" align="center" valign="bottom" style="text-align: center; vertical-align: bottom;">
 								<a href="http://www.cavalierhotel.com/contact.aspx" style="font-family:'Times New Roman', Times, serif; font-size:14px;; color:#E3E6EC; text-decoration: none;">Contact</a>
-                <p style="height:10px; font-size:10px; margin:0;">&nbsp;</p>
+                <p class="mob-padding" style="height:10px; font-size:10px; margin:0;">&nbsp;</p>
 							</td>
 							<td width="20%" align="center" valign="bottom" class="mob-hide" style="text-align: center; vertical-align: bottom;">
 								<a href="http://www.cavalierhotel.com/gallery/accommodations-gallery.aspx" style="font-family:'Times New Roman', Times, serif; font-size:14px;; color:#E3E6EC; text-decoration: none;">Gallery</a>
-                <p style="height:10px; font-size:10px; margin:0;">&nbsp;</p>
+                <p class="mob-padding" style="height:10px; font-size:10px; margin:0;">&nbsp;</p>
 							</td>
 						</tr>
 						<!--END NAVIGATION-->
@@ -164,7 +167,7 @@
 							<td align="center" valign="middle" style="text-align:center; vertical-align:middle;">
 								<!-- BEGIN IMAGE -->
 								<a href="http://www.cavalierhotel.com" style="text-decoration: none;">
-									<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/Now-Accepting-Reservations-620.jpg" alt="Now accepting reservations for 2017 – Virginia's Iconic Resort Reimagined" class="column-img" style="display: block; min-width: 100%; height: auto;" />
+									<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/Now-Accepting-Reservations-620.jpg" alt="Now accepting reservations for 2017 – Virginia's Iconic Resort Reimagined" title="Now accepting reservations for 2017 – Virginia's Iconic Resort Reimagined" class="column-img" style="display: block; min-width: 100%; height: auto;" />
 								</a>
 								<!-- END IMAGE -->
 							</td>
@@ -188,7 +191,7 @@
 									<td align="center" valign="middle" style="text-align:center; vertical-align:middle;">
 										<!-- BEGIN IMAGE -->
 										<a href="http://www.cavalierhotel.com/meetings-events.aspx" style="text-decoration: none;">
-											<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/Bespoke-Events.jpg" alt="Bespoke Events &amp; Meetings" class="column-img" style="display: block; min-width: 100%; height: auto;" />
+											<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/Bespoke-Events.jpg" alt="Bespoke Events &amp; Meetings" title="Bespoke Events &amp; Meetings" class="column-img" style="display: block; min-width: 100%; height: auto;" />
 										</a>
 										<!-- END IMAGE -->
 									</td>
@@ -214,7 +217,7 @@
 									<td align="center" valign="middle" style="text-align:center; vertical-align:middle;">
 										<!-- BEGIN IMAGE -->
 										<a href="http://www.cavalierhotel.com/weddings/our-team.aspx" style="text-decoration: none;">
-											<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/Meet-The-Team.jpg" alt="Meet The Team" class="column-img" style="display: block; min-width: 100%; height: auto;" />
+											<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/Meet-The-Team.jpg" alt="Meet The Team" title="Meet The Team" class="column-img" style="display: block; min-width: 100%; height: auto;" />
 										</a>
 										<!-- END IMAGE -->
 									</td>
@@ -246,7 +249,7 @@
 									<td align="center" valign="middle" style="text-align:center; vertical-align:middle;">
 										<!-- BEGIN IMAGE -->
 										<a href="http://www.cavalierhotel.com/weddings/" style="text-decoration: none;">
-											<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/Grand-Occassions.jpg" alt="Grand Occasions" class="column-img" style="display: block; min-width: 100%; height: auto;" />
+											<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/Grand-Occassions.jpg" alt="Grand Occasions" title="Grand Occasions" class="column-img" style="display: block; min-width: 100%; height: auto;" />
 										</a>
 										<!-- END IMAGE -->
 									</td>
@@ -272,7 +275,7 @@
 									<td align="center" valign="middle" style="text-align:center; vertical-align:middle;">
 										<!-- BEGIN IMAGE -->
 										<a href="http://www.cavalierhotel.com/group-promo.aspx" style="text-decoration: none;">
-											<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/celebratory-savings.jpg" alt="Celebratory Savings" class="column-img" style="display: block; min-width: 100%; height: auto;" />
+											<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/Meet-Drink-and-Play.jpg" alt="Meet, Drink and Play" title="Meet, Drink and Play" class="column-img" style="display: block; min-width: 100%; height: auto;" />
 										</a>
 										<!-- END IMAGE -->
 									</td>
@@ -303,22 +306,22 @@
 					<tr>
 						<td align="center" valign="middle" style="text-align: center;">
 							<a href="https://www.facebook.com/cavalierhotel" style="text-decoration: none; ">
-							<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/cavalier-facebook.png" width="22" height="22" alt="Facebook" title="Facebook" style="display: block; border: none; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 18px; width: 22px; height: 22px; margin: 0 auto;">
+							<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/cavalier-facebook.png" width="22" height="22" alt="Facebook" title="Facebook" title="Facebook" style="display: block; border: none; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 18px; width: 22px; height: 22px; margin: 0 auto;">
 							</a>
 						</td>
 						<td align="center" valign="middle" style="text-align: center;">
 							<a href="https://www.instagram.com/thecavaliervb/" style="text-decoration: none;">
-							<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/cavalier-instagram.png" width="22" height="22" alt="Instagram" title="Instagram" style="display: block; border: none; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 18px; width: 22px; height: 22px; margin: 0 auto;">
+							<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/cavalier-instagram.png" width="22" height="22" alt="Instagram" title="Instagram" title="Instagram" style="display: block; border: none; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 18px; width: 22px; height: 22px; margin: 0 auto;">
 							</a>
 						</td>
 						<td align="center" valign="middle" style="text-align: center;">
 							<a href="https://www.pinterest.com/thecavaliervb" style="text-decoration: none;">
-							<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/cavalier-pinterest.png" width="22" height="22" alt="Pinterest" title="Pinterest" style="display: block; border: none; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 22px; width: 22px; height: 22px; margin: 0 auto;">
+							<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/cavalier-pinterest.png" width="22" height="22" alt="Pinterest" title="Pinterest" title="Pinterest" style="display: block; border: none; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 22px; width: 22px; height: 22px; margin: 0 auto;">
 							</a>
 						</td>
 						<td align="center" valign="middle" style="text-align: center;">
 							<a href="https://www.youtube.com/watch?v=D1ASyfc63Rw&_ga=2.154674616.1626928533.1493398146-171536744.1493396612" style="text-decoration: none;">
-							<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/cavalier-youtube.png" width="25" height="25" alt="YouTube" title="YouTube" style="display: block; border: none; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 18px; width: 25px; height: 25px; margin: 0 auto;">
+							<img src="http://clutch-asset-management.s3.amazonaws.com/gold-key-prod/cavalier-youtube.png" width="25" height="25" alt="YouTube" title="YouTube" title="YouTube" style="display: block; border: none; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 18px; width: 25px; height: 25px; margin: 0 auto;">
 							</a>
 						</td>
 					</tr>
